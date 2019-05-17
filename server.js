@@ -99,7 +99,7 @@ MongoClient.connect(config.db, function(err, db) {
             httpOnly: true,
             
             // Remember to start an HTTPS server to get this working
-            secure: true
+            //secure: true
         }
         
 
