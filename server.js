@@ -94,7 +94,8 @@ MongoClient.connect(config.db, function(err, db) {
         
         // Fix for A3 - XSS
         // TODO: Add "maxAge"
-        cookie: {
+        cookie: {          
+            
             //httpOnly: true,
             
             // Remember to start an HTTPS server to get this working
